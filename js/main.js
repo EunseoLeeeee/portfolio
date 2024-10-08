@@ -58,10 +58,10 @@ $(document).ready(function(){
 
 
 
-    autoplay: {
-        delay: 4000,
-        disableOnInteraction: true,
-    },
+    // autoplay: {
+    //     delay: 4000,
+    //     disableOnInteraction: true,
+    // },
     speed: 1000,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -69,8 +69,8 @@ $(document).ready(function(){
     },
     centeredSlides: false,
     loop: false,
-    slidesPerView: 2.5,
-    spaceBetween: 30,
+    slidesPerView: 1,
+    spaceBetween: 10,
 
     
     scrollbar: {
@@ -80,16 +80,16 @@ $(document).ready(function(){
        
     },
 
-    // breakpoints: {
-    //      768: {
-    //          slidesPerView: 2.5,
-    //          spaceBetween: 40,
-    //     },
-    //      1200: {
-    //         slidesPerView: 3,
-    //         spaceBetween: 40,
-    //      },
-    // },
+    breakpoints: {
+         768: {
+             slidesPerView: 2,
+             spaceBetween: 30,
+        },
+         1200: {
+            slidesPerView: 2.5,
+            spaceBetween: 30,
+         },
+    },
 
 
 

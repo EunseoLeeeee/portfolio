@@ -289,6 +289,16 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 .gnb li .depth2{background:rgba(255, 255, 255,0.1);position: absolute; top: 40px; left: 5px;  text-align: center; font-size: 1.6rem; width: 230px;  font-family: var(--main-font); padding: 20px 0;  }
 .gnb li .depth2 li a{font-family: var(--main-font); font-size: 1.6rem; display: block; padding: 5px 20px; font-weight: 700; }
 
+@media(max-width:1200px){
+  #header .inner {height: 10%;  justify-content: space-between; padding:20px 100px;  }
+
+ .gnb{display: flex; }
+ .gnb li{position: relative;}
+ .gnb li>a{display: block; color: #F3B030; font-size: 2rem; font-family: var(--sub-font); padding-left: 70px;}
+ .gnb li .depth2{width: 180px;  font-family: var(--main-font); padding: 20px 0; left: 15%; }
+
+}
+
 
 .contact_pop{background: rgba(255, 255, 255, 0.8); border-radius: 10px; color: #FF810D; text-align: center; position: relative; width: 550px; height: 300px; padding: 30px 0;}
 .contact_pop::after{content: ''; width: 80%; height: 1px; background: #FF810D; position: absolute; top: 48%; right: 10%;}
@@ -296,6 +306,12 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 .contact_pop .close:hover{transform: scale(1.1,1.1);}
 .contact_pop p{font-size: 2.4rem;  font-weight: 200; padding-top: 20px;}
 .contact_pop p span{font-weight: 700;}
+
+@media(max-width:1200px){
+  .contact_pop{width: 450px;}
+  
+
+}
 
 
 
@@ -328,6 +344,17 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 
 }
 
+@media(max-width:1200px){
+  #mv .mv_txt ul{font-size: 2.5rem; }
+  #mv .mv_txt ul:before{ content: ''; width: 50%; height: 2px; background: #F3B030;position: absolute; left: 0;top: -80px;}
+  #mv .mv_txt ul li{padding-bottom: 40px; padding-left: 20%; position: relative; color: #F3B030; letter-spacing: 3px; font-weight: 200; text-align: left;}
+ #mv .mv_txt ul li:nth-of-type(2){padding-left: 20%;}
+ #mv .mv_txt ul li:before{content: ''; width: 70%; height: 2px; background: #F3B030;position: absolute; left: 0;top: -10px;}
+ #mv .mv_txt ul li:nth-of-type(2):before{width: 80%;}
+
+}
+
+
 
 
 /* about */
@@ -349,6 +376,21 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 #about .txt2 .btn{background: #FF810D url('../images/contact.png') no-repeat right 30px center ; color: #fff; padding: 15px 75px;border-radius: 30px ; font-weight: 700; float: left; margin-top: 10%;position: absolute; left: 25%; font-size: 2.4rem; cursor: pointer; border: 0;}
 
 
+@media(max-width:1200px){
+  #about .about_in{display: flex; justify-content: space-between; padding:10% 100px 15%;  position: relative;}
+  #about .txt1 h2{font-size: 5rem;}
+  #about .txt1 p{font-size: 2.4rem; width: 30vw; padding-top: 20px; }
+  #about .video{position: absolute; bottom: 0; left: 5%; }
+  #about .video video{width: 100%; display: block;}
+  #about .txt2{font-size: 2rem; padding-left: 12%;padding-top: 5%;position: relative; }
+  #about .txt2 ul>li{padding-bottom: 40px; position: relative;}
+  #about .txt2 ul>li:before{ font-size: 2rem;  }
+  #about .txt2 .btn{ margin-top: 7%; font-size: 2rem; }
+  
+ 
+
+}
+
 /* skill */
 #skill{background: #000; text-align: center;}
 #skill .skill_in{display: flex;  padding: 5vh 0 5vh;justify-content: flex-start;padding-left: 15vw;}
@@ -369,6 +411,23 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 #skill .video video{width: 100%; display: block;}
 
 
+@media(max-width:1200px){
+  #skill .skill_in{padding: 10vh 100px 20vh;justify-content: flex-start;}
+  #skill .txt{width: 60vw; }
+  #skill .txt h2{font-size: 5rem;}
+
+  #skill .txt ul{gap: 30px 12px;}
+  #skill .txt ul li dl dd{ padding: 10px 40px;height: 70px; border-radius: 20px;}
+  #skill .txt ul li dl dd ul li{font-size: 2rem; }
+  #skill .txt>ul>li dl dd ul li img{ width: 70%; }
+
+  
+  
+  
+
+}
+
+
 
 
 /* web */
@@ -384,7 +443,7 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 #web .film ul li:hover .txt{opacity: 1;}
 #web .film ul li .txt p{font-size: 2.8rem; font-weight: 700; height: 40%;}
 #web .film ul li .txt p span{font-size: 2rem; font-weight: 400;}
-#web .film ul li .txt .btn{background: #FF810D url('../images/arrow.png') no-repeat right 30px center ; color: #fff; padding: 10px 150px 10px 20px;border-radius: 30px ; font-weight: 400;  font-size: 2rem; display: inline-block; margin-right: 20px; margin-top: 20px; transition: all 0.3s; }
+#web .film ul li .txt .btn{background: #FF810D url('../images/arrow.png') no-repeat right 30px center ; color: #fff; padding: 10px 140px 10px 20px;border-radius: 30px ; font-weight: 400;  font-size: 2rem; display: inline-block; margin-right: 20px; margin-top: 20px; transition: all 0.3s; }
 #web .film ul li .txt .btn:hover{background:#FF810D url('../images/arrow.png') no-repeat right 20px center ; ;}
 #web .film ul li img{width: 100%; display: block; object-fit: cover; filter: saturate(95%) ; }
 #web .swiper-scrollbar{width: 73%; position: absolute; bottom: 7%; left:16%;  height: 12px; background: rgba(0, 0, 0,0.3);}
@@ -393,12 +452,22 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 #web .footer{color: #000; text-align: center; font-size: 2rem; padding: 20px 0 40px;}
 
 
+@media(max-width:1200px){
+  #web .container>img{bottom: -10%; left: -10%; transform: scale(0.9,0.9);}
+  #web .film ul li .txt .btn{ padding: 6px 100px 6px 20px;  font-size: 1.8rem; margin-top: 10px; }
+  #web .film ul li .txt{padding: 30px 50px; opacity: 0; transition: all 0.5s;}
+  #web .film ul li .txt p{font-size: 2.6rem; height: 40%;}
+
+}
+
+
 
 
 /* graphic */
 #graphic {background: #F3B030;position: relative; }
 #graphic .gnb li>a{display: block; color: #000000; }
-#graphic .container{background: url('../images/film2.png') right 60% bottom  no-repeat;padding-bottom: 80px; animation: slide-in-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
+#graphic .container{padding-bottom: 80px; animation: slide-in-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
+#graphic .container>img{position: absolute; bottom: 0; right: 9%;}
 #graphic h2{font-size: 5rem; font-family: var(--sub-font); color: #000; text-align: center; padding: 100px 0 100px;}
 #graphic .film{ width: 69%;  margin-left: 7%; margin-right: 24%; }
 #graphic .film ul{width: 100%;}
@@ -407,19 +476,27 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 #graphic .film ul li:hover .txt{opacity: 1;}
 #graphic .film ul li .txt p{font-size: 2.8rem; font-weight: 700; height: 40%;}
 #graphic .film ul li .txt p span{font-size: 2rem; font-weight: 400;}
-#graphic .film ul li .txt .btn{background: #FF810D url('../images/arrow.png') no-repeat right 30px center ; color: #fff; padding: 10px 150px 10px 20px;border-radius: 30px ; font-weight: 400;  font-size: 2rem; display: inline-block; margin-right: 20px; margin-top: 20px; transition: all 0.3s; }
+#graphic .film ul li .txt .btn{background: #FF810D url('../images/arrow.png') no-repeat right 30px center ; color: #fff; padding: 10px 140px 10px 20px;border-radius: 30px ; font-weight: 400;  font-size: 2rem; display: inline-block; margin-right: 20px; margin-top: 20px; transition: all 0.3s; }
 #graphic .film ul li .txt .btn:hover{background:#FF810D url('../images/arrow.png') no-repeat right 20px center ; ;}
 #graphic .film ul li img{width: 100%; display: block; object-fit: cover; filter: saturate(90%) ; }
-#graphic .swiper-scrollbar{width: 73%; position: absolute; bottom: 15%; left:6%;  height: 12px; background: rgba(0, 0, 0,0.3);}
+#graphic .swiper-scrollbar{width: 73%; position: absolute; bottom: 7%; left:6%;  height: 12px; background: rgba(0, 0, 0,0.3);}
 #graphic .swiper-scrollbar .swiper-scrollbar-drag{background: #000;}
 
 #graphic .footer{color: #000; text-align: center; font-size: 2rem; padding: 20px 0 40px;}
+
+@media(max-width:1200px){
+  #graphic .container>img{bottom: -10%; right: -5%; transform: scale(0.9,0.9);}
+  #graphic .film ul li .txt .btn{ padding: 6px 100px 6px 20px;  font-size: 1.8rem; margin-top: 10px; }
+  #graphic .film ul li .txt{padding: 30px 30px; opacity: 0; transition: all 0.5s;}
+  #graphic .film ul li .txt p{font-size: 2.6rem; height: 50%; word-break: keep-all;}
+
+}
 
 
 
 
 #epilogue{background: #000 url('../images/apil_bg.png')no-repeat bottom 0 left -20% ; text-align: center; position: relative;}
-#epilogue .contact_pop{position: absolute; top:40%; right: 7%; background;}
+#epilogue .contact_pop{position: absolute; top:40%; right: 7%; background; z-index: 5;}
 #epilogue .txt{display: inline-block; margin: 5% 0 12%; position: relative;}
 #epilogue .txt .circle{background: rgba(243, 176, 48, 0.9); width: 380px;height: 380px; border-radius: 50%;position: absolute; z-index: 1;top: 0; left: -10vw; filter: blur(2rem); animation: text-flicker-in-glow 4s linear both;}
 #epilogue .txt .circle_in{position: absolute; z-index: 3; top: 0; left: 0; width: 380px; top: 0; left: -10vw; animation: text-flicker-in-glow 4s linear both; }
@@ -427,6 +504,12 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 #epilogue .btn{background: #FF810D url('../images/contact.png') no-repeat right 30px center ; color: #fff; padding: 15px 75px;border-radius: 30px ; font-weight: 700; font-size: 2.4rem;  cursor: pointer; border: 0;}
 #epilogue .btn:hover{}
 #epilogue .hope{font-size: 3rem; font-weight: 100; padding: 200px 0  100px; }
+
+@media(max-width:1200px){
+  #epilogue{background: #000 url('../images/apil_bg.png')no-repeat bottom 40% left -20% ; background-size: 50%; }
+  #epilogue .hope{padding: 300px 0  100px; }
+
+}
 
 
 

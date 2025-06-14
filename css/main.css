@@ -325,7 +325,7 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 
 /* mv */
 
-#mv{background: #000; text-align: center; position: relative;}
+#mv{background-image: url('../images/bk2.jpg'); text-align: center; position: relative;}
 #mv .flash {top: 3%; position: absolute; left: 51%; animation: flash 2s infinite; }
 #mv .apeture{position: absolute; top: 23%; left: 35.7%; animation:rotate-out-2-cw 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; z-index: 5;}
 #mv .logo img{display: inline-block; position: absolute; top: 25%; left: 50%; transform: translateX(-50%) scale(0.9,0.9) ; animation: fade-in2 3s;}
@@ -399,7 +399,7 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 #skill .txt ul{display: flex; flex-wrap: wrap;  justify-content: center; gap: 30px 40px;}
 
 #skill .txt ul li dl dt{font-size: 2rem; color: #F3B030; padding-bottom: 10PX;}
-#skill .txt ul li dl dd{background: rgba(243, 176, 48, 0.7); border-radius: 30px; padding: 10px 60px;height: 90px; display: inline-block; animation: pulse 1s infinite; }
+#skill .txt ul li dl dd{background: rgba(243, 176, 48, 0.7); border-radius: 10px; padding: 10px 60px;height: 90px; display: inline-block; animation: pulse 1s infinite; }
 #skill .txt ul li:nth-of-type(odd) dl dd{animation:pulse 1s infinite; }
 #skill .txt ul li dl dd ul{align-items: center;}
 #skill .txt ul li dl dd ul li{font-size: 2.4rem; }

@@ -285,7 +285,7 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 
 .gnb{display: flex; }
 .gnb li{position: relative;}
-.gnb li>a{display: block; color: #fff; font-size: 2rem; font-family: var(--sub-font); padding-left: 70px; font-weight: 100;}
+.gnb li>a{display: block; color: #E9C06F; font-size: 2rem; font-family: var(--sub-font); padding-left: 70px; font-weight: 100;}
 .gnb li .depth2{background:rgba(255, 255, 255,0.1);position: absolute; top: 40px; left: 5px;  text-align: center; font-size: 1.6rem; width: 230px;  font-family: var(--main-font); padding: 20px 0;  }
 .gnb li .depth2 li a{font-family: var(--main-font); font-size: 1.6rem; display: block; padding: 5px 20px; font-weight: 700; }
 

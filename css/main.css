@@ -453,7 +453,7 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 
 
 @media(max-width:1200px){
-  #web .container>img{bottom: -10%; left: -10%; transform: scale(0.9,0.9);}
+  #web .container>img{bottom: -15%; left: -15%; transform: scale(0.8,0.8);}
   #web .film ul li .txt .btn{ padding: 6px 100px 6px 20px;  font-size: 1.8rem; margin-top: 10px; }
   #web .film ul li .txt{padding: 30px 50px; opacity: 0; transition: all 0.5s;}
   #web .film ul li .txt p{font-size: 2.6rem; height: 40%;}
@@ -485,7 +485,7 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 #graphic .footer{color: #000; text-align: center; font-size: 2rem; padding: 20px 0 40px;}
 
 @media(max-width:1200px){
-  #graphic .container>img{bottom: -10%; right: -5%; transform: scale(0.9,0.9);}
+  #graphic .container>img{bottom: -15%; right: -10%; transform: scale(0.8,0.8);}
   #graphic .film ul li .txt .btn{ padding: 6px 100px 6px 20px;  font-size: 1.8rem; margin-top: 10px; }
   #graphic .film ul li .txt{padding: 30px 30px; opacity: 0; transition: all 0.5s;}
   #graphic .film ul li .txt p{font-size: 2.6rem; height: 50%; word-break: keep-all;}
@@ -506,8 +506,9 @@ body{color: #fff; font-size: 1.6rem; line-height: 1.5; font-family: 'pretendard'
 #epilogue .hope{font-size: 3rem; font-weight: 100; padding: 200px 0  100px; }
 
 @media(max-width:1200px){
-  #epilogue{background: #000 url('../images/apil_bg.png')no-repeat bottom 40% left -20% ; background-size: 50%; }
-  #epilogue .hope{padding: 300px 0  100px; }
+  #epilogue{background: #000 url('../images/apil_bg.png')no-repeat bottom 40% left -30% ; background-size: 50%; }
+  
+  #epilogue .hope{padding: 300px 0  100px;  font-size: 2.4rem;}
 
 }
 
